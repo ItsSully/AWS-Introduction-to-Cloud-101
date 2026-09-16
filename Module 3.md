@@ -1,5 +1,5 @@
 # AWS Educate – Introduction to AWS
-## Module 4: AWS Core Services
+## Module 3: AWS Core Services
 
 ### Module Objectives
 
@@ -477,9 +477,9 @@ CloudWatch → Monitoring
 ```
 ---
 
-## Module 4 Summary
+## Module 3 Summary
 
-Module 4 introduced several of the core services used to build applications and infrastructure on AWS.
+Module 3 introduced several of the core services used to build applications and infrastructure on AWS.
 
 I learned how cloud applications can use different AWS services together, and how monolithic and microservices architectures differ.
 
