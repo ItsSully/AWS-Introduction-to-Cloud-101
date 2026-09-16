@@ -1,5 +1,5 @@
 # AWS Educate – Introduction to Cloud Computing
-## Module 2: Cloud Computing
+## Module 1: Cloud Computing
 
 ### Module Objectives
 
