@@ -1,4 +1,4 @@
-# AWS Educate – Introduction to AWS
+# AWS Educate – AWS Core Services
 ## Module 3: AWS Core Services
 
 ### Module Objectives
