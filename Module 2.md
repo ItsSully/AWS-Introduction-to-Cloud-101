@@ -582,11 +582,11 @@ The module also introduced the AWS Shared Responsibility Model, which explains h
 
 The AWS Well-Architected Framework provides six pillars for designing effective cloud workloads:
 
-Operational Excellence
-Security
-Reliability
-Performance Efficiency
-Cost Optimization
+Operational Excellence,
+Security,
+Reliability,
+Performance Efficiency,
+Cost Optimization and
 Sustainability
 
 Finally, the module covered cloud costs, Total Cost of Ownership (TCO), AWS pricing, the AWS Pricing Calculator, Free Tier and billing.
