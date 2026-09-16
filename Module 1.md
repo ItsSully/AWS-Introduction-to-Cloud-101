@@ -308,7 +308,7 @@ Cloud computing provides **on-demand computing resources over the internet**.
 
 ---
 
-## Module 2 Summary
+## Module 1 Summary
 
 Cloud computing provides organisations with on-demand access to computing resources over the internet. It developed from earlier computing models such as mainframe and client-server computing, with technologies such as virtualisation helping enable modern cloud environments.
 
