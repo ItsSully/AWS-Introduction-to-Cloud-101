@@ -13,7 +13,7 @@ By the end of this module, I should be able to:
 
 ---
 
-# 1. AWS Offerings
+## 1. AWS Offerings
 
 **Amazon Web Services (AWS)** is a cloud computing platform that provides a wide range of services for different computing requirements.
 
@@ -32,7 +32,7 @@ AWS provides customers with access to cloud infrastructure without requiring the
 
 ---
 
-# 2. AWS Benefits
+## 2. AWS Benefits
 
 AWS provides several benefits to organisations using cloud computing.
 
@@ -62,7 +62,7 @@ Customers can avoid many of the large upfront costs associated with purchasing a
 
 ---
 
-# 3. Brief History of AWS
+## 3. Brief History of AWS
 
 AWS was developed by Amazon as a way of providing scalable technology infrastructure through cloud services.
 
@@ -74,7 +74,7 @@ Today, AWS provides a large range of cloud services used by organisations around
 
 ---
 
-# 4. AWS is a Leader in Cloud Computing
+## 4. AWS is a Leader in Cloud Computing
 
 AWS is one of the major providers in the global cloud computing industry.
 
@@ -93,7 +93,7 @@ AWS provides services that can support everything from small applications to lar
 
 ---
 
-# 5. AWS Global Infrastructure
+## 5. AWS Global Infrastructure
 
 AWS operates a global infrastructure designed to provide reliable and highly available cloud services.
 
@@ -107,9 +107,9 @@ These components allow AWS customers to deploy resources across different geogra
 
 ---
 
-# 6. Regions, Availability Zones and Edge Locations
+## 6. Regions, Availability Zones and Edge Locations
 
-## AWS Regions
+### AWS Regions
 
 An **AWS Region** is a separate geographical area containing AWS infrastructure.
 
@@ -122,7 +122,7 @@ Examples include regions in:
 
 When deploying AWS resources, customers can select the Region where their resources will operate.
 
-### Why choose a specific Region?
+#### Why choose a specific Region?
 
 Choosing an appropriate Region can help with:
 
@@ -132,9 +132,7 @@ Choosing an appropriate Region can help with:
 - Disaster recovery
 - Availability
 
----
-
-## Availability Zones (AZs)
+### Availability Zones (AZs)
 
 An **Availability Zone** is one or more discrete data centres within an AWS Region.
 
@@ -142,28 +140,26 @@ Each Region contains multiple Availability Zones.
 
 Availability Zones are designed to be sufficiently separated from each other to reduce the impact of failures while remaining connected through AWS networking.
 
-### Key idea
+#### Key idea
 
 > **Region = Geographical area**  
 > **Availability Zone = Isolated infrastructure location within a Region**
 
 Using multiple Availability Zones can improve application availability and resilience.
 
----
-
-## Edge Locations
+### Edge Locations
 
 **Edge Locations** are locations used by AWS services to deliver content and applications closer to end users.
 
 They help reduce latency by allowing content to be delivered from locations geographically closer to users.
 
-### Key idea
+#### Key idea
 
 > **Edge Location = Brings content/services closer to users**
 
 ---
 
-# 7. Map of AWS Regions
+## 7. Map of AWS Regions
 
 AWS has Regions distributed around the world.
 
@@ -180,7 +176,7 @@ When selecting a Region, organisations should consider factors such as:
 
 ---
 
-# 8. Planning for Failure
+## 8. Planning for Failure
 
 Cloud environments should be designed with the assumption that failures can occur.
 
@@ -198,7 +194,7 @@ This is an important concept for building highly available and resilient systems
 
 ---
 
-# 9. Example of AWS Regions
+## 9. Example of AWS Regions
 
 A company operating internationally may choose different AWS Regions based on where its users are located.
 
@@ -212,7 +208,7 @@ The appropriate Region depends on the application's requirements.
 
 ---
 
-# 10. Benefits of AWS Global Infrastructure
+## 10. Benefits of AWS Global Infrastructure
 
 AWS's global infrastructure provides several advantages.
 
@@ -238,7 +234,7 @@ Organisations can select Regions based on legal, regulatory and data-location re
 
 ---
 
-# 11. AWS Shared Responsibility
+## 11. AWS Shared Responsibility
 
 AWS uses a **Shared Responsibility Model** for cloud security.
 
@@ -251,9 +247,9 @@ AWS is responsible for security **of the cloud**, while customers are responsibl
 
 ---
 
-# 12. Shared Responsibility Model
+## 12. Shared Responsibility Model
 
-## AWS Responsibilities
+### AWS Responsibilities
 
 AWS is responsible for protecting the underlying infrastructure that runs AWS services.
 
@@ -267,9 +263,7 @@ This includes areas such as:
 
 AWS is responsible for ensuring that the underlying cloud infrastructure is secure.
 
----
-
-## Customer Responsibilities
+### Customer Responsibilities
 
 Customers are responsible for securing what they put into the AWS environment.
 
@@ -285,14 +279,14 @@ Depending on the services being used, this can include:
 
 The exact customer responsibility depends on the AWS service being used.
 
-### Key idea
+#### Key idea
 
 > **AWS = Security OF the cloud**  
 > **Customer = Security IN the cloud**
 
 ---
 
-# 13. AWS Well-Architected Framework
+## 13. AWS Well-Architected Framework
 
 The **AWS Well-Architected Framework** provides guidance for designing and operating secure, reliable, efficient and cost-effective cloud workloads.
 
@@ -309,7 +303,7 @@ The six pillars are:
 
 ---
 
-## 13.1 Operational Excellence
+### 13.1 Operational Excellence
 
 Focuses on operating and monitoring systems effectively.
 
@@ -321,13 +315,13 @@ Important areas include:
 - Responding to events
 - Improving operational processes
 
-### Goal
+#### Goal
 
 > Run and improve systems effectively.
 
 ---
 
-## 13.2 Security
+### 13.2 Security
 
 Focuses on protecting systems, data and infrastructure.
 
@@ -339,13 +333,13 @@ Important areas include:
 - Detection
 - Incident response
 
-### Goal
+#### Goal
 
 > Protect information and systems from threats.
 
 ---
 
-## 13.3 Reliability
+### 13.3 Reliability
 
 Focuses on ensuring workloads perform correctly and recover from failures.
 
@@ -357,25 +351,25 @@ Important areas include:
 - Monitoring
 - Disaster recovery
 
-### Goal
+#### Goal
 
 > Keep systems operating and recover quickly from failures.
 
 ---
 
-## 13.4 Performance Efficiency
+### 13.4 Performance Efficiency
 
 Focuses on using computing resources efficiently.
 
 This includes selecting appropriate resources and adapting them as requirements change.
 
-### Goal
+#### Goal
 
 > Use resources efficiently while maintaining the required performance.
 
 ---
 
-## 13.5 Cost Optimization
+### 13.5 Cost Optimization
 
 Focuses on avoiding unnecessary cloud expenditure.
 
@@ -387,25 +381,25 @@ This includes:
 - Understanding pricing
 - Optimising workloads
 
-### Goal
+#### Goal
 
 > Get the required business value while avoiding unnecessary costs.
 
 ---
 
-## 13.6 Sustainability
+### 13.6 Sustainability
 
 Focuses on reducing the environmental impact of cloud workloads.
 
 This includes using resources efficiently and avoiding unnecessary consumption.
 
-### Goal
+#### Goal
 
 > Reduce the environmental impact of running cloud workloads.
 
 ---
 
-# 14. Costs & Billing
+## 14. Costs & Billing
 
 Cloud computing introduces different ways of paying for computing resources.
 
@@ -424,7 +418,7 @@ Customers should monitor their AWS usage to avoid unexpected costs.
 
 ---
 
-# 15. Total Cost of Ownership (TCO)
+## 15. Total Cost of Ownership (TCO)
 
 **Total Cost of Ownership (TCO)** is the overall cost of acquiring, operating and maintaining a technology solution.
 
@@ -450,7 +444,7 @@ Cloud computing can change these costs because much of the underlying infrastruc
 
 ---
 
-# 16. AWS Pricing Calculator
+## 16. AWS Pricing Calculator
 
 The **AWS Pricing Calculator** can be used to estimate the potential cost of AWS services.
 
@@ -467,7 +461,7 @@ This can help organisations plan and compare potential AWS deployments before im
 
 ---
 
-# 17. AWS Pricing Models
+## 17. AWS Pricing Models
 
 AWS provides different pricing options depending on the service and usage requirements.
 
@@ -487,7 +481,7 @@ Certain AWS compute capacity can be purchased at discounted prices when availabl
 
 ---
 
-# 18. AWS Free Tier
+## 18. AWS Free Tier
 
 The **AWS Free Tier** allows customers to use certain AWS services within specified usage limits without being charged for those eligible amounts.
 
@@ -497,7 +491,7 @@ Free Tier eligibility and limits depend on the specific AWS service and account 
 
 ---
 
-# 19. AWS Billing Dashboard
+## 19. AWS Billing Dashboard
 
 The AWS Billing Dashboard provides information about AWS account costs and usage.
 
@@ -513,7 +507,7 @@ Monitoring billing is important when working with cloud environments.
 
 ---
 
-# 20. Billing Examples
+## 20. Billing Examples
 
 AWS costs depend on the services and resources being used.
 
@@ -530,7 +524,7 @@ Therefore, cloud costs should be monitored and managed as part of operating an A
 
 ---
 
-# Key Concepts to Remember
+## Key Concepts to Remember
 
 | Concept | Definition |
 |---|---|
@@ -548,7 +542,7 @@ Therefore, cloud costs should be monitored and managed as part of operating an A
 
 ---
 
-# Well-Architected Framework – Quick Reference
+## Well-Architected Framework – Quick Reference
 
 | Pillar | Main Focus |
 |---|---|
@@ -561,7 +555,7 @@ Therefore, cloud costs should be monitored and managed as part of operating an A
 
 ---
 
-# AWS Global Infrastructure – Quick Reference
+## AWS Global Infrastructure – Quick Reference
 
 ```text
 AWS Global Infrastructure
@@ -575,9 +569,10 @@ AWS Global Infrastructure
 └── Edge Locations
     └── Locations that help deliver content closer to users
 ```
+
 ---
 
-Module 2 Summary
+## Module 2 Summary
 
 Module 2 introduced the fundamentals of Amazon Web Services (AWS), including its history, global infrastructure and major benefits.
 
