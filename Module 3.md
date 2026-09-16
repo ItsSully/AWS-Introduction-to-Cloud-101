@@ -89,12 +89,14 @@ Application
 - Requires careful design of networking and security
 
 ### Monolithic vs Microservices
-| Monolithic |	Microservices
-Single application unit	Multiple independent services
-Usually simpler initially	More complex
-Components are tightly connected	Components are more independent
-Scaling can affect the whole application	Individual services can be scaled
-Easier to deploy initially	Services can be deployed independently
+
+| Monolithic |	Microservices |
+|---|---|
+| Single application unit |	Multiple independent services |
+| Usually simpler initially	| More complex |
+| Components are tightly connected	| Components are more independent |
+| Scaling can affect the whole application	| Individual services can be scaled |
+| Easier to deploy initially	| Services can be deployed independently |
 
 
 
