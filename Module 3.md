@@ -98,28 +98,6 @@ Application
 | Scaling can affect the whole application	| Individual services can be scaled |
 | Easier to deploy initially	| Services can be deployed independently |
 
-### Advantages
-
-- Individual services can be scaled independently
-- Services can be developed and deployed separately
-- Problems can potentially be isolated to individual services
-- Different technologies can be used for different services
-
-### Disadvantages
-- More complex architecture
-- Requires communication between services
-- Monitoring and managing multiple services can be more difficult
-- Requires careful design of networking and security
-
-### Monolithic vs Microservices
-| Monolithic	| Microservices |
-|---|---|
-| Single application unit	| Multiple independent services | 
-| Usually simpler initially	| More complex |
-| Components are tightly connected	| Components are more independent |
-| Scaling can affect the whole application	| Individual services can be scaled |
-| Easier to deploy initially	| Services can be deployed independently |
-
 ---
 
 ## 4. Types of AWS Services
