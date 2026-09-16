@@ -1,4 +1,4 @@
-# AWS Educate – Introduction to AWS ☁️
+# AWS Educate – Introduction to AWS 
 
 ## About
 
@@ -14,13 +14,13 @@ I completed this course to strengthen my understanding of **cloud computing alon
 
 Throughout the course, I developed an understanding of:
 
-- ☁️ Cloud computing fundamentals and service models
-- 🌍 AWS global infrastructure, including Regions and Availability Zones
-- 🔐 Cloud security and the AWS Shared Responsibility Model
-- 🏗️ AWS architecture and the Well-Architected Framework
-- 💻 Core AWS services such as EC2, S3, VPC, IAM, Lambda, RDS, DynamoDB and CloudWatch
-- 💰 AWS pricing, billing and Total Cost of Ownership
-- 👩‍💻 Cloud career pathways and opportunities
+-  Cloud computing fundamentals and service models
+-  AWS global infrastructure, including Regions and Availability Zones
+-  Cloud security and the AWS Shared Responsibility Model
+-  AWS architecture and the Well-Architected Framework
+-  Core AWS services such as EC2, S3, VPC, IAM, Lambda, RDS, DynamoDB and CloudWatch
+-  AWS pricing, billing and Total Cost of Ownership
+-  Cloud career pathways and opportunities
 
 ---
 
